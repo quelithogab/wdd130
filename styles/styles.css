@@ -40,11 +40,12 @@ aside {
     position: relative;
     width: 20rem;
     text-align: center;
+    color: #333
 }
 
 aside h2 {
     position: absolute;
-    left: 150px;
+    left: 130px;
 }
 aside img {
     width: 200px;
