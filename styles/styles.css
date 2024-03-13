@@ -37,6 +37,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
@@ -56,6 +57,7 @@ footer {
     text-align: center;
 }
 
+/* Class Selectors="box" */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
@@ -64,4 +66,3 @@ footer {
     color: #333;
 }
 
-/* Class Selectors */
