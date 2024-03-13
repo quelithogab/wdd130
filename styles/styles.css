@@ -40,6 +40,7 @@ aside {
     width: 20rem;
     text-align: center;
 }
+
 aside h2 {
     position: absolute;
     left: 150px;
@@ -55,8 +56,6 @@ footer {
     text-align: center;
 }
 
-/* This is a comment */
-
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
@@ -64,3 +63,5 @@ footer {
     background-color: #7c9ae8;
     color: #333;
 }
+
+/* Class Selectors */
