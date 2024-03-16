@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Marhey:wght@300..700&display=swap');
+
+
+body {
+  font-family: var(--paragraph-font);
+  margin: 20px;
+} 
+
+:root {
+    --primary-color: #273C54;
+    --secondary-color: #2F605C;
+    --accent1-color: #364144;
+    --accent2-color: #147B6F;
+  
+    --heading-font: "Marhey", serif;
+    --paragraph-font: "Gabriela", serif;
+    --nav-background-color: #147B6F;
+    --nav-link-color: #273c54;
+    --nav-hover-link-color: #273c54;
+    --nav-hover-background-color: #2F605C;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+.hero {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 350px;
+  background-color: rgba(52, 52, 52, 0.8);
+  width: 79.29rem;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.hero img{
+  width: 100%;
+  height: 500px;
+}
+
+.hero article img {
+  width: 200px;
+  height: auto;
+  float: right;
+  padding: 20px;
+}
+
+article {
+  position: absolute;
+  top: 500px;
+  background-color: rgba(135, 125, 228, 0.629);
+  margin: 0 5rem 0 5rem;
+  color: white;
+  padding-left: 20px;
+}
+
+section img {
+  display: block;
+  padding: 10px;
+}
+
+footer {
+  color: #021528;
+  font-weight: 700;
+  font-style: italic;
+}
