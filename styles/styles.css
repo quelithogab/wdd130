@@ -31,6 +31,11 @@ nav a {
 
 }
 
+nav a:hover {
+	color: rgb(23, 186, 235);
+	text-decoration: underline;
+}
+
 main {
     grid-column: 2/3;
     margin: 1rem;

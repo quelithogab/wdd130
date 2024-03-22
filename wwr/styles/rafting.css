@@ -20,9 +20,35 @@ body {
     --nav-hover-background-color: #2F605C;
 }
 
+header{ 
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  align-items: center;
+  background-color: rgb(222, 231, 239);
+  width: 80.50rem;
+  
+}
+
+header img {
+  margin-left: 5rem;
+}
+
+nav {
+  display: flex;
+}
+
 nav a {
+  display: block;
   color: var(--nav-link-color);
   text-decoration: none;
+  padding: 25px;
+  font-weight: 600;
+}
+
+nav a:hover {
+	color: rgb(76, 5, 243);
+	text-decoration: underline;
 }
 
 .hero {
@@ -61,13 +87,75 @@ article {
   padding-left: 20px;
 }
 
-section img {
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: aliceblue;
+  border: 1px solid black;
+  padding: 3rem;
+  margin: 1rem;
+}
+  
+section h2 {
   display: block;
-  padding: 10px;
+  margin-left: 3rem;
+  position: relative;
+  grid-column-start: 3;
+  grid-column-end: span 2;
+  align-items: center;
+ 
+
+}
+
+section p {
+  display: block;
+  grid-row-start: 2;
+  grid-column-end: span 5;
+  
+}
+
+figure {
+  display: flex;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 1fr 2fr;
+  grid-row-start: 2;
+  grid-column-end: span 5;
+}
+
+figure img {
+  height: 150px;
+  width: 150px;
+  padding: 2px;
+}
+
+figcaption {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  
 }
 
 footer {
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 700px 1fr 1fr;
+  align-items: center;
   color: #021528;
   font-weight: 700;
   font-style: italic;
+  width: 80rem;
+}
+
+footer p {
+  position: relative;
+  margin-left: 15rem;
+}
+footer nav {
+  justify-content: flex-end;
+ width: 35rem;
+;
 }
