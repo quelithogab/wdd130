@@ -104,15 +104,12 @@ section h2 {
   grid-column-start: 3;
   grid-column-end: span 2;
   align-items: center;
- 
-
 }
 
 section p {
   display: block;
   grid-row-start: 2;
   grid-column-end: span 5;
-  
 }
 
 figure {
@@ -134,7 +131,6 @@ figcaption {
   display: flex;
   justify-content: center;
   margin-top: 10rem;
-  
 }
 
 footer {
