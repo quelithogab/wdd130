@@ -99,7 +99,6 @@ section {
   
 section h2 {
   display: block;
-  margin-left: 3rem;
   position: relative;
   grid-column-start: 3;
   grid-column-end: span 2;
