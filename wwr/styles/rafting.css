@@ -94,7 +94,7 @@ section {
   background-color: aliceblue;
   border: 1px solid black;
   padding: 3rem;
-  margin: 1rem;
+  margin: 1rem; 
 }
   
 section h2 {
@@ -113,24 +113,19 @@ section p {
 }
 
 figure {
-  display: flex;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: 1fr 2fr;
+  display: block; 
   grid-row-start: 2;
-  grid-column-end: span 5;
 }
 
-figure img {
-  height: 150px;
+ section img {
+  height: 100px;
   width: 150px;
-  padding: 2px;
+  padding: 5px;
 }
 
 figcaption {
-  position: relative;
-  display: flex;
+  display: flex; 
   justify-content: center;
-  margin-top: 10rem;
 }
 
 footer {
@@ -150,8 +145,8 @@ footer p {
   position: relative;
   margin-left: 15rem;
 }
+
 footer nav {
   justify-content: flex-end;
  width: 35rem;
-;
 }
