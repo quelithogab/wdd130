@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <h1>HTML & CSS Quiz</h1>
+  <form action="submit_quiz.php" method="post">
+    <label for="q1">1. What does CSS stand for?</label><br>
+    <input type="text" id="q1" name="q1"><br><br>
+
+    <label for="q2">2. What is the purpose of the "textarea" element in HTML?</label><br>
+    <textarea id="q2" name="q2"></textarea><br><br>
+
+    <label for="q3">3. What does HTML stand for?</label><br>
+    <select id="q3" name="q3">
+        <option value="" selected disabled>Choose One of the following</option>
+        <option value="Home Tool Markup Language">Home Tool Markup Language</option>
+        <option value="Hyper Text Markup Language">Hyper Text Markup Language</option>
+        <option value="Hyperlinks and Text Markup Language">Hyperlinks and Text Markup Language</option>
+        <option value="Hypertext Master Language">Hypertext Master Language</option>
+    </select><br><br>
+
+    <label for="q4">4. How many tags are available in HTML5?</label><br>
+    <input type="number" id="q4" name="q4"><br><br>
+
+    <input type="Submit" value="Submit Quiz">
+  </form>
+</body>
+</html>
