@@ -1,8 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Marhey:wght@300..700&display=swap');
 
+
+:root {
+    --paragraph-font: 'Gabriela', serif;
+    --heading-font: 'Marhey', sans-serif;
+}
+
 body {
-    font-family: var(--paragraph-font);
+    
     margin: 0;
     padding: 0;
     background-color: rgb(236, 241, 246);
@@ -12,7 +18,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 15px;
-    font-family: Marhey,sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 form {
@@ -26,9 +32,9 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
-    font-family: Gariel,sans-serif;
-    font-weight: 700;
-    font-style:italic
+    font-family: var(--paragraph-font); 
+    font-weight: 800;
+    font-style:italic;
 } 
 
 input[type="text"],
