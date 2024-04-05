@@ -53,6 +53,79 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+.hero {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 350px;
+  background-color: rgba(52, 52, 52, 0.8);
+  width: 79.29rem;
+  padding: 9.5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.hero img {
+  width: 100%;
+  height: 500px;
+}
+
+.hero article img {
+  width: 200px;
+  height: auto;
+  float: right;
+  padding: 20px;
+}
+
+article {
+  position: absolute;
+  top: 500px;
+  background-color: rgba(135, 125, 228, 0.629);
+  margin: 0 5rem;
+  color: white;
+  padding-left: 20px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: aliceblue;
+  border: 1px solid black;
+  padding: 3rem;
+  margin-top: 1rem;
+}
+
+section h2 {
+  display: block;
+  font-family: var(--heading-font);
+  margin-top: 3px;
+  color: black;
+  grid-column-start: 3;
+  grid-column-end: span 5;
+  position: relative;
+  align-items: center;
+}
+
+section p {
+  display: block;
+  grid-row-start: 2;
+  grid-column-end: span 5;
+  
+}
+
+section img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+
+}
+
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -60,25 +133,34 @@ h1 {
   font-family: var(--heading-font)
 }
 
+.contact {
+  background-color: aliceblue;
+  border: 1px solid black;
+  width: 1265px;
+  height: 450px;
+  margin: 20px;
+  padding-bottom: 70px;
+}
 .contact p{
   position: absolute;
-  margin-left: 70px;   
+  margin-left: 80px;   
 }
 
-.map iframe {
+iframe {
   margin-left: 450px;
-  height: 350px;
+  height: 300px;
   width: 450px; 
+  
 }
 
 
 .employee-container {
   display: flex;
-  background-color: #fafbfb;
+  background-color: aliceblue;
   border: 1px solid black;
-  width: 75rem;
+  width: 76rem;
   padding: 1rem;
-  margin: 2.5rem; 
+  margin: 1.5rem; 
 }
 
 .employee-container h2 {
@@ -94,13 +176,26 @@ h1 {
   width: 250px;
   padding: 15px;
   margin-top: 55px;
+  margin-left: 30px;
 }
 
+.employee-container figcaption {
+  margin-left: 45px;
+}
 
 form {
   max-width: 500px;
   margin-left: 400px;
   padding: 20px;
+}
+
+fieldset {
+  background-color: aliceblue;
+  display: grid;
+  grid-gap: 0.5rem;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 1rem;
 }
 
 input[type="text"],
@@ -141,7 +236,7 @@ footer {
   color: #021528;
   font-weight: 700;
   font-style: italic;
-  width: 78rem;
+  width: 80rem;
 }
 
 footer p {
