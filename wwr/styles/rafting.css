@@ -125,7 +125,6 @@ section img {
 
 }
 
-
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -133,6 +132,7 @@ h1 {
   font-family: var(--heading-font)
 }
 
+/* Contact Us css */
 .contact {
   background-color: aliceblue;
   border: 1px solid black;
@@ -152,7 +152,6 @@ iframe {
   width: 450px; 
   
 }
-
 
 .employee-container {
   display: flex;
@@ -207,7 +206,7 @@ textarea {
   margin-bottom: 2px;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 1px solid #5c5454
+  border: 1px solid #5c5454;
 }
 
 button[type="submit"] {
@@ -225,6 +224,121 @@ button[type="submit"]:hover {
   background-color: rgb(19, 55, 84);
   text-decoration: underline;
 }
+
+/* trips css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 90%;
+  margin: 15px 0 15px 60px;
+}
+
+
+.trip-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 96%;
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Home css */
+
+.full-width-image {
+  margin-left: 55px;
+}
+
+.full-width-image h2 {
+  font-family: var(--heading-font);
+  font-size: xx-large;
+}
+
+.newsletter-form {
+  width: 52%;
+  margin: 0 0 15px 500px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form input[type="text"],
+  .newsletter-form input[type="email"] {
+    width: 270px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .newsletter-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .newsletter-form input[type="submit"]:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+  }
+
+  .call-to-action {
+    background-color: #0e80fa;
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+    padding: 20px;
+    margin-left: 110px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .call-to-action a {
+    color: #fff;
+    text-decoration: underline;
+    font-family: var(--heading-font);
+    font-weight: bold;
+  }
+
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .grid-item img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
 
 footer {
   background-color: aliceblue;
