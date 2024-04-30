@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sans Tabou</title>
+    <meta name="description" content="The home page includes spaces so that people could add their questions">
+    <meta name="author" content="Quelitho Gabriel">
+    <link rel="stylesheet" href="styles/stb.css">
+</head>
+<body>
+    <header>
+        <h1>LE COUPLE SANS TABOU</h1>
+    </header>
+    <main>
+        <div class="full-width-image">
+            <img src="images/stb.jpg" alt="Home Image">
+            <h1>Bienvenue sur le site Sans Tabou</h1>
+        </div>
+    
+    </main>
+    <fieldset>
+        <legend>Envoyez Vos Questions</legend>
+        <form action="submit_contact">
+            <label for="name">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+    
+            <label for="prénom">Prénom:</label><br>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+    
+            <label for="message">Questions:</label><br>
+            <textarea id="question" name="question" required></textarea><br><br>
+    
+            <button type="submit">Send</button>
+        </form>
+    </fieldset>
+</body>
+</html>
