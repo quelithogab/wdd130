@@ -65,7 +65,7 @@ textarea {
   border: 1px solid #5c5454;
 }
 
-button[type="submit"] {
+button[type="button"] {
     background-color: #0056b3;
     color: #ffffffec;
     border-radius: 5px;
@@ -76,7 +76,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button[type="button"]:hover {
     background-color: rgb(19, 55, 84);
     text-decoration: underline;
 }
